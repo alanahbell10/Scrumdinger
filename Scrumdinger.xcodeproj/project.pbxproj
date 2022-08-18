@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3FA10F9128ADC12300C35965 /* Scrumdinger_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA10F9028ADC12300C35965 /* Scrumdinger_App.swift */; };
-		3FA10F9328ADC12300C35965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA10F9228ADC12300C35965 /* ContentView.swift */; };
+		3FA10F9328ADC12300C35965 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA10F9228ADC12300C35965 /* MeetingView.swift */; };
 		3FA10F9528ADC12400C35965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA10F9428ADC12400C35965 /* Assets.xcassets */; };
 		3FA10F9828ADC12400C35965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA10F9728ADC12400C35965 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FA10F8D28ADC12300C35965 /* Scrumdinger,.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrumdinger,.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA10F8D28ADC12300C35965 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA10F9028ADC12300C35965 /* Scrumdinger_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrumdinger_App.swift; sourceTree = "<group>"; };
-		3FA10F9228ADC12300C35965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FA10F9228ADC12300C35965 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		3FA10F9428ADC12400C35965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA10F9728ADC12400C35965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 		3FA10F8428ADC12300C35965 = {
 			isa = PBXGroup;
 			children = (
-				3FA10F8F28ADC12300C35965 /* Scrumdinger, */,
+				3FA10F8F28ADC12300C35965 /* Scrumdinger */,
 				3FA10F8E28ADC12300C35965 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		3FA10F8E28ADC12300C35965 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FA10F8D28ADC12300C35965 /* Scrumdinger,.app */,
+				3FA10F8D28ADC12300C35965 /* Scrumdinger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FA10F8F28ADC12300C35965 /* Scrumdinger, */ = {
+		3FA10F8F28ADC12300C35965 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
 				3FA10F9028ADC12300C35965 /* Scrumdinger_App.swift */,
-				3FA10F9228ADC12300C35965 /* ContentView.swift */,
+				3FA10F9228ADC12300C35965 /* MeetingView.swift */,
 				3FA10F9428ADC12400C35965 /* Assets.xcassets */,
 				3FA10F9628ADC12400C35965 /* Preview Content */,
 			);
-			path = "Scrumdinger,";
+			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
 		3FA10F9628ADC12400C35965 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FA10F8C28ADC12300C35965 /* Scrumdinger, */ = {
+		3FA10F8C28ADC12300C35965 /* Scrumdinger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA10F9B28ADC12400C35965 /* Build configuration list for PBXNativeTarget "Scrumdinger," */;
+			buildConfigurationList = 3FA10F9B28ADC12400C35965 /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
 			buildPhases = (
 				3FA10F8928ADC12300C35965 /* Sources */,
 				3FA10F8A28ADC12300C35965 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Scrumdinger,";
+			name = Scrumdinger;
 			productName = "Scrumdinger,";
-			productReference = 3FA10F8D28ADC12300C35965 /* Scrumdinger,.app */;
+			productReference = 3FA10F8D28ADC12300C35965 /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FA10F8828ADC12300C35965 /* Build configuration list for PBXProject "Scrumdinger," */;
+			buildConfigurationList = 3FA10F8828ADC12300C35965 /* Build configuration list for PBXProject "Scrumdinger" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FA10F8C28ADC12300C35965 /* Scrumdinger, */,
+				3FA10F8C28ADC12300C35965 /* Scrumdinger */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA10F9328ADC12300C35965 /* ContentView.swift in Sources */,
+				3FA10F9328ADC12300C35965 /* MeetingView.swift in Sources */,
 				3FA10F9128ADC12300C35965 /* Scrumdinger_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger,/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +280,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Lana.Scrumdinger-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Scrumdinger;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,7 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger,/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,7 +308,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Lana.Scrumdinger-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Scrumdinger;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FA10F8828ADC12300C35965 /* Build configuration list for PBXProject "Scrumdinger," */ = {
+		3FA10F8828ADC12300C35965 /* Build configuration list for PBXProject "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA10F9928ADC12400C35965 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA10F9B28ADC12400C35965 /* Build configuration list for PBXNativeTarget "Scrumdinger," */ = {
+		3FA10F9B28ADC12400C35965 /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA10F9C28ADC12400C35965 /* Debug */,
